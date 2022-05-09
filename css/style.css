@@ -1,0 +1,261 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/*header*/
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px 0px 100px;
+    margin-bottom: 3em;
+}
+
+
+
+header .menu{
+    display: flex;
+    align-items: center;
+   
+}
+
+header .menu li{
+    display: inline;
+}
+
+header .menu a{
+    color: black;
+    font-size: 1em;
+    margin: 0px 2em;
+    text-align: center;
+    color: var(--color-primario);
+    font-weight: var(--font-weight);
+    font-family: var(--font-family);
+}
+
+header .menu a:hover{
+    font-size: 20px;
+    margin: 0px 30px;
+    border-bottom: black solid 1px;
+}
+
+header .logo{
+    flex-grow: 1;
+    flex-basis: 0;
+    margin-right: 80px;
+}
+
+header .logo{
+    width: 10%;
+    height: auto;
+}
+/*fin header*/
+
+/*hero*/
+.hero{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.hero .hero_info{
+    display: flex;
+    flex-direction: column;
+    align-items: Left;
+    flex-basis: 0;
+    flex-grow: 1;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.hero .img_logo{
+    flex-grow: 1;
+    flex-basis: 0;
+    margin-top: 170px;
+    padding-left: 7em;
+}
+
+.hero img{
+    width: 50%;
+    height: auto;
+}
+
+.hero .hero_info h1{
+    color: black;
+    font-size: 6em;
+    flex-basis: 0;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.hero .hero_info p{
+    text-align: left;
+    flex-basis: 0;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+/*fin hero*/
+
+/*colores*/
+.colores{
+    background-color: whitesmoke;
+    margin-top: 3em;
+    padding-top: 2em;
+    padding-bottom: 3em;
+}
+
+.colores h1{
+    color: black;
+    font-size: 65px;
+    flex-basis: 0;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    width: 87%;
+    margin: auto;
+   
+   
+}
+
+.colores .colores_container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+
+
+.colores .color_container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+
+.colores .colores_container .color{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 10px;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.colores .color_container .color{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.colores .colores_container .color:nth-child(1){
+    background-color: #F1C400;
+    color: black;
+}
+
+.colores .colores_container .color:nth-child(2){
+    background-color: #74AA50;
+    color: white;
+}
+
+.colores .colores_container .color:nth-child(3){
+    background-color: #00B0B9;
+    color: black;
+}
+
+.colores .color_container .color:nth-child(1){
+    background-color: #7BA4DB;
+    color: white;
+}
+
+.colores .color_container .color:nth-child(2){
+    background-color: #8986CA;
+    color: white;
+}
+
+.colores .color_container .color:nth-child(3){
+    background-color: #B55C80;
+    color: white;
+}
+
+.colores .colores_container .color .color_info ul{
+    justify-content: center;
+    font-size: 14px;
+}
+
+.colores .color_container .color .color_info ul{
+    justify-content: center;
+    font-size: 14px;
+}
+/*fin cards*/
+
+/*footer*/
+footer{
+    background-color: var(--bg-primario);
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 90px;
+    font-stretch: var(--font-stretch);
+}
+
+footer .logo{
+    flex-grow: 1;
+    flex-basis: 0;
+    margin-right: 80px;
+}
+
+footer .logo{
+    width: 12%;
+    height: auto;
+}
+
+footer .lista{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+    justify-content: space-evenly;
+    margin-left: 100px;
+}
+
+footer u{
+    color: white;
+}
+
+footer li{
+    list-style: none;
+}
+
+footer a{
+    color: black;
+}
+
+footer a:hover{
+    color: black;
+    border-bottom: solid black 1px;
+}
+
+footer ul{
+    margin-left: 100px;
+}
+
+/*fin footer*/
+
+:root {
+    --color-primario:#912929;
+    --bg-primario:#a10c95;
+    --font-weight: 400;
+    --font-stretch: 100%;
+    --font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
